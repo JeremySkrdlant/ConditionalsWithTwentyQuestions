@@ -29,6 +29,8 @@ struct FinishView: View {
                 }
             }.frame(height: showAnswer ? 200 : 0)
                 .clipped()
+            //the height above is a form of if then known as a ternery operator.  it has the following form.
+            // condition ? trueValue : falseValue
             
             Button {
                 showAnswer = true
